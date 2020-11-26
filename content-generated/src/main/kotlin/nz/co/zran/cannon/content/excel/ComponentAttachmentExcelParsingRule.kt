@@ -20,7 +20,7 @@ class ComponentAttachmentExcelParsingRule(
     get() {
         val fileParser = FileParser()
         fileParser.start = 1
-    fileParser.addCell(1, "attachments")
+    fileParser.addCell(1, "temp")
     fileParser.addCell(2, "id", LongConvertor())
     fileParser.addCell(3, "version", LongConvertor())
     fileParser.addCell(4, "createdAt")

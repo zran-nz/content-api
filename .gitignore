@@ -5,3 +5,5 @@ out
 classes
 *.iml
 .DS_Store
+content-generated/db
+content-generated/http

@@ -24,12 +24,11 @@ class ResourceAttachmentExcelParsingRule(
     fileParser.addCell(2, "field")
     fileParser.addCell(3, "value")
     fileParser.addCell(4, "sort")
-    fileParser.addCell(5, "attachment")
-    fileParser.addCell(6, "id", LongConvertor())
-    fileParser.addCell(7, "version", LongConvertor())
-    fileParser.addCell(8, "createdAt")
-    fileParser.addCell(9, "updatedAt")
-    fileParser.addCell(10, "deletedAt")
+    fileParser.addCell(5, "id", LongConvertor())
+    fileParser.addCell(6, "version", LongConvertor())
+    fileParser.addCell(7, "createdAt")
+    fileParser.addCell(8, "updatedAt")
+    fileParser.addCell(9, "deletedAt")
         fileParser.addCell(2, "category", EntityConvertor().apply {
                 name = "Creator"
                 em = entityManager
