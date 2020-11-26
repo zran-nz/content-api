@@ -6,9 +6,9 @@ import org.springframework.boot.autoconfigure.security.servlet.SecurityAutoConfi
 import org.springframework.boot.runApplication
 
 @SpringBootApplication(
-        scanBasePackages = ["com.github.b1412.*"],
+        scanBasePackages = ["nz.co.zran.cannon.content.*"],
         exclude = [
             SecurityAutoConfiguration::class,
             ApplicationAvailabilityAutoConfiguration::class]
 )
-class ConfigApp
+class ContentApp
