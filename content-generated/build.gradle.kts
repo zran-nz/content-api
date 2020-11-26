@@ -26,8 +26,8 @@ allOpen {
     annotation("javax.persistence.MappedSuperclass")
 }
 
-group = "com.github.b1412"
-version = "0.1.5"
+group = "com.github.zran-nz"
+version = "0.1.1"
 java.sourceCompatibility = JavaVersion.VERSION_11
 
 
@@ -104,7 +104,7 @@ tasks.withType<Test> {
 publishing {
     repositories {
         maven {
-            url = uri("https://maven.pkg.github.com/b1412/content-api")
+            url = uri("https://maven.pkg.github.com/zran-nz/content-api")
             credentials {
                 username = System.getenv("GITHUB_ACTOR")
                 password = System.getenv("GITHUB_TOKEN")

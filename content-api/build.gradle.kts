@@ -25,8 +25,8 @@ noArg {
 
 java.sourceCompatibility = JavaVersion.VERSION_11
 
-group = "com.github.b1412"
-version = "0.1.5"
+group = "com.github.zran-nz"
+version = "0.1.1"
 
 val jar: Jar by tasks
 val bootJar: BootJar by tasks
@@ -63,21 +63,35 @@ dependencies {
     implementation("mysql:mysql-connector-java:8.0.22")
     arrow(arrowVersion)
     graphql()
+
     implementation("org.jooq:joor-java-8:0.9.12")
     implementation("io.github.microutils:kotlin-logging:1.7.6")
     implementation("io.jsonwebtoken:jjwt:0.7.0")
     implementation("commons-beanutils:commons-beanutils:1.9.4")
-    implementation("org.codehaus.groovy:groovy-jsr223:2.4.3")
+
     implementation("com.amazonaws:aws-java-sdk-s3:1.11.210")
+
+    implementation ("com.github.czyzby:kotlin-times:1.0")
+    implementation("org.jxls:jxls:2.4.0")
+    implementation("org.jxls:jxls-poi:1.0.12")
+    implementation("org.jxls:jxls-jexcel:1.0.6")
+    implementation("org.jxls:jxls-reader:2.0.2")
+
+    implementation("org.apache.commons:commons-csv:1.8")
+    implementation("commons-fileupload:commons-fileupload:1.3.1")
+    implementation("com.vladmihalcea:hibernate-types-52:2.10.0")
+    implementation("org.codehaus.groovy:groovy-jsr223:2.4.3")
+
     testImplementation("org.junit.jupiter:junit-jupiter-api")
     testImplementation("org.springframework.boot:spring-boot-starter-test") {
         exclude(module = "junit")
         exclude(module = "mockito-core")
     }
     testImplementation("com.ninja-squad:springmockk:1.1.2")
-    runtimeOnly("com.h2database:h2")
+    testImplementation("com.h2database:h2")
     testRuntimeOnly("org.junit.jupiter:junit-jupiter-engine")
-    implementation("org.codehaus.groovy:groovy-jsr223:2.4.3")
+
+    runtimeOnly("com.h2database:h2")
 }
 
 
@@ -123,7 +137,7 @@ tasks.withType<Test> {
 publishing {
     repositories {
         maven {
-            url = uri("https://maven.pkg.github.com/b1412/content-api")
+            url = uri("https://maven.pkg.github.com/zran-nz/content-api")
             credentials {
                 username = System.getenv("GITHUB_ACTOR")
                 password = System.getenv("GITHUB_TOKEN")

@@ -13,8 +13,8 @@ plugins {
     `maven-publish`
 }
 
-group = "com.github.b1412"
-version = "0.1.5"
+group = "com.github.zran-nz"
+version = "0.1.1"
 
 val jar: Jar by tasks
 val bootJar: BootJar by tasks
@@ -117,7 +117,7 @@ tasks.withType<Test> {
 publishing {
     repositories {
         maven {
-            url = uri("https://maven.pkg.github.com/b1412/content-api")
+            url = uri("https://maven.pkg.github.com/zran-nz/content-api")
             credentials {
                 username = System.getenv("GITHUB_ACTOR")
                 password = System.getenv("GITHUB_TOKEN")
