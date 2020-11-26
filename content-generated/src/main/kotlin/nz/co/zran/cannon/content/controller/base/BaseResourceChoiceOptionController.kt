@@ -2,7 +2,7 @@ package nz.co.zran.cannon.content.controller.base
 
 import com.github.b1412.api.controller.BaseController
 import org.springframework.web.bind.annotation.RestController
-import nz.co.zran.cannon.content.entity.PageConfig
+import nz.co.zran.cannon.content.entity.ResourceChoiceOption
 import com.github.b1412.json.GraphRender
 import org.springframework.beans.factory.annotation.Autowired
 import org.springframework.data.domain.Page
@@ -17,27 +17,27 @@ import org.springframework.web.bind.annotation.RequestParam
 import org.springframework.web.util.UriComponentsBuilder
 
 @Transactional
-abstract class BasePageConfigController : BaseController<PageConfig, Long>() {
+abstract class BaseResourceChoiceOptionController : BaseController<ResourceChoiceOption, Long>() {
 
-    @GraphRender("pageConfig")
+    @GraphRender("resourceChoiceOption")
     @GetMapping
     override fun page(request: HttpServletRequest, @RequestParam filter: Map<String, String>, pageable: Pageable): ResponseEntity<*> {
         return super.page(request, filter,pageable)
     }
 
-    @GraphRender("pageConfig")
+    @GraphRender("resourceChoiceOption")
     @GetMapping("{id}")
     override fun findOne(@PathVariable id: Long, request: HttpServletRequest): ResponseEntity<*> {
         return super.findOne(id, request)
     }
 
     @PostMapping
-    override fun saveOne(@Validated @RequestBody input: PageConfig, request: HttpServletRequest, uriComponent: UriComponentsBuilder): ResponseEntity<*> {
+    override fun saveOne(@Validated @RequestBody input: ResourceChoiceOption, request: HttpServletRequest, uriComponent: UriComponentsBuilder): ResponseEntity<*> {
         return super.saveOne(input, request, uriComponent)
     }
 
     @PutMapping("{id}")
-    override fun updateOne(@PathVariable id: Long, @Validated @RequestBody input: PageConfig, request: HttpServletRequest): ResponseEntity<*> {
+    override fun updateOne(@PathVariable id: Long, @Validated @RequestBody input: ResourceChoiceOption, request: HttpServletRequest): ResponseEntity<*> {
         return super.updateOne(id, input, request)
     }
 
