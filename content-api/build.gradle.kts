@@ -53,7 +53,7 @@ dependencies {
     val arrowVersion = "0.11.0"
     api(project(":content-generated"))
     implementation("com.github.b1412:api-common:5ba35feadd")
-    implementation("com.github.b1412:permission-api:0.1.15")
+    implementation("com.github.b1412:permission-api:0.1.16")
 
     implementation("org.jetbrains.kotlin:kotlin-reflect")
     implementation("org.jetbrains.kotlin:kotlin-stdlib-jdk8")
