@@ -460,6 +460,468 @@ DELETE FROM role_permission_rule where role_permission_id = 251106 AND rule_id =
 
 DELETE FROM role_permission_rule where role_permission_id = 251107 AND rule_id = 5;
         
+
+DELETE FROM role_permission_rule where role_permission_id = 151201 AND rule_id = 1;
+        
+
+DELETE FROM role_permission_rule where role_permission_id = 151202 AND rule_id = 1;
+        
+
+DELETE FROM role_permission_rule where role_permission_id = 151203 AND rule_id = 1;
+        
+
+DELETE FROM role_permission_rule where role_permission_id = 151204 AND rule_id = 1;
+        
+
+DELETE FROM role_permission_rule where role_permission_id = 151205 AND rule_id = 1;
+        
+
+DELETE FROM role_permission_rule where role_permission_id = 151206 AND rule_id = 1;
+        
+
+DELETE FROM role_permission_rule where role_permission_id = 151207 AND rule_id = 1;
+        
+
+DELETE FROM role_permission_rule where role_permission_id = 251201 AND rule_id = 5;
+        
+
+DELETE FROM role_permission_rule where role_permission_id = 251202 AND rule_id = 5;
+        
+
+DELETE FROM role_permission_rule where role_permission_id = 251203 AND rule_id = 5;
+        
+
+DELETE FROM role_permission_rule where role_permission_id = 251204 AND rule_id = 5;
+        
+
+DELETE FROM role_permission_rule where role_permission_id = 251205 AND rule_id = 5;
+        
+
+DELETE FROM role_permission_rule where role_permission_id = 251206 AND rule_id = 5;
+        
+
+DELETE FROM role_permission_rule where role_permission_id = 251207 AND rule_id = 5;
+        
+
+DELETE FROM role_permission_rule where role_permission_id = 151301 AND rule_id = 1;
+        
+
+DELETE FROM role_permission_rule where role_permission_id = 151302 AND rule_id = 1;
+        
+
+DELETE FROM role_permission_rule where role_permission_id = 151303 AND rule_id = 1;
+        
+
+DELETE FROM role_permission_rule where role_permission_id = 151304 AND rule_id = 1;
+        
+
+DELETE FROM role_permission_rule where role_permission_id = 151305 AND rule_id = 1;
+        
+
+DELETE FROM role_permission_rule where role_permission_id = 151306 AND rule_id = 1;
+        
+
+DELETE FROM role_permission_rule where role_permission_id = 151307 AND rule_id = 1;
+        
+
+DELETE FROM role_permission_rule where role_permission_id = 251301 AND rule_id = 5;
+        
+
+DELETE FROM role_permission_rule where role_permission_id = 251302 AND rule_id = 5;
+        
+
+DELETE FROM role_permission_rule where role_permission_id = 251303 AND rule_id = 5;
+        
+
+DELETE FROM role_permission_rule where role_permission_id = 251304 AND rule_id = 5;
+        
+
+DELETE FROM role_permission_rule where role_permission_id = 251305 AND rule_id = 5;
+        
+
+DELETE FROM role_permission_rule where role_permission_id = 251306 AND rule_id = 5;
+        
+
+DELETE FROM role_permission_rule where role_permission_id = 251307 AND rule_id = 5;
+        
+
+DELETE FROM role_permission_rule where role_permission_id = 151401 AND rule_id = 1;
+        
+
+DELETE FROM role_permission_rule where role_permission_id = 151402 AND rule_id = 1;
+        
+
+DELETE FROM role_permission_rule where role_permission_id = 151403 AND rule_id = 1;
+        
+
+DELETE FROM role_permission_rule where role_permission_id = 151404 AND rule_id = 1;
+        
+
+DELETE FROM role_permission_rule where role_permission_id = 151405 AND rule_id = 1;
+        
+
+DELETE FROM role_permission_rule where role_permission_id = 151406 AND rule_id = 1;
+        
+
+DELETE FROM role_permission_rule where role_permission_id = 151407 AND rule_id = 1;
+        
+
+DELETE FROM role_permission_rule where role_permission_id = 251401 AND rule_id = 5;
+        
+
+DELETE FROM role_permission_rule where role_permission_id = 251402 AND rule_id = 5;
+        
+
+DELETE FROM role_permission_rule where role_permission_id = 251403 AND rule_id = 5;
+        
+
+DELETE FROM role_permission_rule where role_permission_id = 251404 AND rule_id = 5;
+        
+
+DELETE FROM role_permission_rule where role_permission_id = 251405 AND rule_id = 5;
+        
+
+DELETE FROM role_permission_rule where role_permission_id = 251406 AND rule_id = 5;
+        
+
+DELETE FROM role_permission_rule where role_permission_id = 251407 AND rule_id = 5;
+        
+
+DELETE FROM role_permission_rule where role_permission_id = 151501 AND rule_id = 1;
+        
+
+DELETE FROM role_permission_rule where role_permission_id = 151502 AND rule_id = 1;
+        
+
+DELETE FROM role_permission_rule where role_permission_id = 151503 AND rule_id = 1;
+        
+
+DELETE FROM role_permission_rule where role_permission_id = 151504 AND rule_id = 1;
+        
+
+DELETE FROM role_permission_rule where role_permission_id = 151505 AND rule_id = 1;
+        
+
+DELETE FROM role_permission_rule where role_permission_id = 151506 AND rule_id = 1;
+        
+
+DELETE FROM role_permission_rule where role_permission_id = 151507 AND rule_id = 1;
+        
+
+DELETE FROM role_permission_rule where role_permission_id = 251501 AND rule_id = 5;
+        
+
+DELETE FROM role_permission_rule where role_permission_id = 251502 AND rule_id = 5;
+        
+
+DELETE FROM role_permission_rule where role_permission_id = 251503 AND rule_id = 5;
+        
+
+DELETE FROM role_permission_rule where role_permission_id = 251504 AND rule_id = 5;
+        
+
+DELETE FROM role_permission_rule where role_permission_id = 251505 AND rule_id = 5;
+        
+
+DELETE FROM role_permission_rule where role_permission_id = 251506 AND rule_id = 5;
+        
+
+DELETE FROM role_permission_rule where role_permission_id = 251507 AND rule_id = 5;
+        
+
+DELETE FROM role_permission_rule where role_permission_id = 151601 AND rule_id = 1;
+        
+
+DELETE FROM role_permission_rule where role_permission_id = 151602 AND rule_id = 1;
+        
+
+DELETE FROM role_permission_rule where role_permission_id = 151603 AND rule_id = 1;
+        
+
+DELETE FROM role_permission_rule where role_permission_id = 151604 AND rule_id = 1;
+        
+
+DELETE FROM role_permission_rule where role_permission_id = 151605 AND rule_id = 1;
+        
+
+DELETE FROM role_permission_rule where role_permission_id = 151606 AND rule_id = 1;
+        
+
+DELETE FROM role_permission_rule where role_permission_id = 151607 AND rule_id = 1;
+        
+
+DELETE FROM role_permission_rule where role_permission_id = 251601 AND rule_id = 5;
+        
+
+DELETE FROM role_permission_rule where role_permission_id = 251602 AND rule_id = 5;
+        
+
+DELETE FROM role_permission_rule where role_permission_id = 251603 AND rule_id = 5;
+        
+
+DELETE FROM role_permission_rule where role_permission_id = 251604 AND rule_id = 5;
+        
+
+DELETE FROM role_permission_rule where role_permission_id = 251605 AND rule_id = 5;
+        
+
+DELETE FROM role_permission_rule where role_permission_id = 251606 AND rule_id = 5;
+        
+
+DELETE FROM role_permission_rule where role_permission_id = 251607 AND rule_id = 5;
+        
+
+DELETE FROM role_permission_rule where role_permission_id = 151701 AND rule_id = 1;
+        
+
+DELETE FROM role_permission_rule where role_permission_id = 151702 AND rule_id = 1;
+        
+
+DELETE FROM role_permission_rule where role_permission_id = 151703 AND rule_id = 1;
+        
+
+DELETE FROM role_permission_rule where role_permission_id = 151704 AND rule_id = 1;
+        
+
+DELETE FROM role_permission_rule where role_permission_id = 151705 AND rule_id = 1;
+        
+
+DELETE FROM role_permission_rule where role_permission_id = 151706 AND rule_id = 1;
+        
+
+DELETE FROM role_permission_rule where role_permission_id = 151707 AND rule_id = 1;
+        
+
+DELETE FROM role_permission_rule where role_permission_id = 251701 AND rule_id = 5;
+        
+
+DELETE FROM role_permission_rule where role_permission_id = 251702 AND rule_id = 5;
+        
+
+DELETE FROM role_permission_rule where role_permission_id = 251703 AND rule_id = 5;
+        
+
+DELETE FROM role_permission_rule where role_permission_id = 251704 AND rule_id = 5;
+        
+
+DELETE FROM role_permission_rule where role_permission_id = 251705 AND rule_id = 5;
+        
+
+DELETE FROM role_permission_rule where role_permission_id = 251706 AND rule_id = 5;
+        
+
+DELETE FROM role_permission_rule where role_permission_id = 251707 AND rule_id = 5;
+        
+
+DELETE FROM role_permission_rule where role_permission_id = 151801 AND rule_id = 1;
+        
+
+DELETE FROM role_permission_rule where role_permission_id = 151802 AND rule_id = 1;
+        
+
+DELETE FROM role_permission_rule where role_permission_id = 151803 AND rule_id = 1;
+        
+
+DELETE FROM role_permission_rule where role_permission_id = 151804 AND rule_id = 1;
+        
+
+DELETE FROM role_permission_rule where role_permission_id = 151805 AND rule_id = 1;
+        
+
+DELETE FROM role_permission_rule where role_permission_id = 151806 AND rule_id = 1;
+        
+
+DELETE FROM role_permission_rule where role_permission_id = 151807 AND rule_id = 1;
+        
+
+DELETE FROM role_permission_rule where role_permission_id = 251801 AND rule_id = 5;
+        
+
+DELETE FROM role_permission_rule where role_permission_id = 251802 AND rule_id = 5;
+        
+
+DELETE FROM role_permission_rule where role_permission_id = 251803 AND rule_id = 5;
+        
+
+DELETE FROM role_permission_rule where role_permission_id = 251804 AND rule_id = 5;
+        
+
+DELETE FROM role_permission_rule where role_permission_id = 251805 AND rule_id = 5;
+        
+
+DELETE FROM role_permission_rule where role_permission_id = 251806 AND rule_id = 5;
+        
+
+DELETE FROM role_permission_rule where role_permission_id = 251807 AND rule_id = 5;
+        
+
+DELETE FROM role_permission_rule where role_permission_id = 151901 AND rule_id = 1;
+        
+
+DELETE FROM role_permission_rule where role_permission_id = 151902 AND rule_id = 1;
+        
+
+DELETE FROM role_permission_rule where role_permission_id = 151903 AND rule_id = 1;
+        
+
+DELETE FROM role_permission_rule where role_permission_id = 151904 AND rule_id = 1;
+        
+
+DELETE FROM role_permission_rule where role_permission_id = 151905 AND rule_id = 1;
+        
+
+DELETE FROM role_permission_rule where role_permission_id = 151906 AND rule_id = 1;
+        
+
+DELETE FROM role_permission_rule where role_permission_id = 151907 AND rule_id = 1;
+        
+
+DELETE FROM role_permission_rule where role_permission_id = 251901 AND rule_id = 5;
+        
+
+DELETE FROM role_permission_rule where role_permission_id = 251902 AND rule_id = 5;
+        
+
+DELETE FROM role_permission_rule where role_permission_id = 251903 AND rule_id = 5;
+        
+
+DELETE FROM role_permission_rule where role_permission_id = 251904 AND rule_id = 5;
+        
+
+DELETE FROM role_permission_rule where role_permission_id = 251905 AND rule_id = 5;
+        
+
+DELETE FROM role_permission_rule where role_permission_id = 251906 AND rule_id = 5;
+        
+
+DELETE FROM role_permission_rule where role_permission_id = 251907 AND rule_id = 5;
+        
+
+DELETE FROM role_permission_rule where role_permission_id = 152001 AND rule_id = 1;
+        
+
+DELETE FROM role_permission_rule where role_permission_id = 152002 AND rule_id = 1;
+        
+
+DELETE FROM role_permission_rule where role_permission_id = 152003 AND rule_id = 1;
+        
+
+DELETE FROM role_permission_rule where role_permission_id = 152004 AND rule_id = 1;
+        
+
+DELETE FROM role_permission_rule where role_permission_id = 152005 AND rule_id = 1;
+        
+
+DELETE FROM role_permission_rule where role_permission_id = 152006 AND rule_id = 1;
+        
+
+DELETE FROM role_permission_rule where role_permission_id = 152007 AND rule_id = 1;
+        
+
+DELETE FROM role_permission_rule where role_permission_id = 252001 AND rule_id = 5;
+        
+
+DELETE FROM role_permission_rule where role_permission_id = 252002 AND rule_id = 5;
+        
+
+DELETE FROM role_permission_rule where role_permission_id = 252003 AND rule_id = 5;
+        
+
+DELETE FROM role_permission_rule where role_permission_id = 252004 AND rule_id = 5;
+        
+
+DELETE FROM role_permission_rule where role_permission_id = 252005 AND rule_id = 5;
+        
+
+DELETE FROM role_permission_rule where role_permission_id = 252006 AND rule_id = 5;
+        
+
+DELETE FROM role_permission_rule where role_permission_id = 252007 AND rule_id = 5;
+        
+
+DELETE FROM role_permission_rule where role_permission_id = 152101 AND rule_id = 1;
+        
+
+DELETE FROM role_permission_rule where role_permission_id = 152102 AND rule_id = 1;
+        
+
+DELETE FROM role_permission_rule where role_permission_id = 152103 AND rule_id = 1;
+        
+
+DELETE FROM role_permission_rule where role_permission_id = 152104 AND rule_id = 1;
+        
+
+DELETE FROM role_permission_rule where role_permission_id = 152105 AND rule_id = 1;
+        
+
+DELETE FROM role_permission_rule where role_permission_id = 152106 AND rule_id = 1;
+        
+
+DELETE FROM role_permission_rule where role_permission_id = 152107 AND rule_id = 1;
+        
+
+DELETE FROM role_permission_rule where role_permission_id = 252101 AND rule_id = 5;
+        
+
+DELETE FROM role_permission_rule where role_permission_id = 252102 AND rule_id = 5;
+        
+
+DELETE FROM role_permission_rule where role_permission_id = 252103 AND rule_id = 5;
+        
+
+DELETE FROM role_permission_rule where role_permission_id = 252104 AND rule_id = 5;
+        
+
+DELETE FROM role_permission_rule where role_permission_id = 252105 AND rule_id = 5;
+        
+
+DELETE FROM role_permission_rule where role_permission_id = 252106 AND rule_id = 5;
+        
+
+DELETE FROM role_permission_rule where role_permission_id = 252107 AND rule_id = 5;
+        
+
+DELETE FROM role_permission_rule where role_permission_id = 152201 AND rule_id = 1;
+        
+
+DELETE FROM role_permission_rule where role_permission_id = 152202 AND rule_id = 1;
+        
+
+DELETE FROM role_permission_rule where role_permission_id = 152203 AND rule_id = 1;
+        
+
+DELETE FROM role_permission_rule where role_permission_id = 152204 AND rule_id = 1;
+        
+
+DELETE FROM role_permission_rule where role_permission_id = 152205 AND rule_id = 1;
+        
+
+DELETE FROM role_permission_rule where role_permission_id = 152206 AND rule_id = 1;
+        
+
+DELETE FROM role_permission_rule where role_permission_id = 152207 AND rule_id = 1;
+        
+
+DELETE FROM role_permission_rule where role_permission_id = 252201 AND rule_id = 5;
+        
+
+DELETE FROM role_permission_rule where role_permission_id = 252202 AND rule_id = 5;
+        
+
+DELETE FROM role_permission_rule where role_permission_id = 252203 AND rule_id = 5;
+        
+
+DELETE FROM role_permission_rule where role_permission_id = 252204 AND rule_id = 5;
+        
+
+DELETE FROM role_permission_rule where role_permission_id = 252205 AND rule_id = 5;
+        
+
+DELETE FROM role_permission_rule where role_permission_id = 252206 AND rule_id = 5;
+        
+
+DELETE FROM role_permission_rule where role_permission_id = 252207 AND rule_id = 5;
+        
     
 DELETE FROM role_permission where id = 150101;
                 
@@ -1385,6 +1847,930 @@ DELETE FROM role_permission where id = 451106;
 DELETE FROM role_permission where id = 451107;
                 
     
+DELETE FROM role_permission where id = 151201;
+                
+    
+DELETE FROM role_permission where id = 151202;
+                
+    
+DELETE FROM role_permission where id = 151203;
+                
+    
+DELETE FROM role_permission where id = 151204;
+                
+    
+DELETE FROM role_permission where id = 151205;
+                
+    
+DELETE FROM role_permission where id = 151206;
+                
+    
+DELETE FROM role_permission where id = 151207;
+                
+    
+DELETE FROM role_permission where id = 251201;
+                
+    
+DELETE FROM role_permission where id = 251202;
+                
+    
+DELETE FROM role_permission where id = 251203;
+                
+    
+DELETE FROM role_permission where id = 251204;
+                
+    
+DELETE FROM role_permission where id = 251205;
+                
+    
+DELETE FROM role_permission where id = 251206;
+                
+    
+DELETE FROM role_permission where id = 251207;
+                
+    
+DELETE FROM role_permission where id = 351201;
+                
+    
+DELETE FROM role_permission where id = 351202;
+                
+    
+DELETE FROM role_permission where id = 351203;
+                
+    
+DELETE FROM role_permission where id = 351204;
+                
+    
+DELETE FROM role_permission where id = 351205;
+                
+    
+DELETE FROM role_permission where id = 351206;
+                
+    
+DELETE FROM role_permission where id = 351207;
+                
+    
+DELETE FROM role_permission where id = 451201;
+                
+    
+DELETE FROM role_permission where id = 451202;
+                
+    
+DELETE FROM role_permission where id = 451203;
+                
+    
+DELETE FROM role_permission where id = 451204;
+                
+    
+DELETE FROM role_permission where id = 451205;
+                
+    
+DELETE FROM role_permission where id = 451206;
+                
+    
+DELETE FROM role_permission where id = 451207;
+                
+    
+DELETE FROM role_permission where id = 151301;
+                
+    
+DELETE FROM role_permission where id = 151302;
+                
+    
+DELETE FROM role_permission where id = 151303;
+                
+    
+DELETE FROM role_permission where id = 151304;
+                
+    
+DELETE FROM role_permission where id = 151305;
+                
+    
+DELETE FROM role_permission where id = 151306;
+                
+    
+DELETE FROM role_permission where id = 151307;
+                
+    
+DELETE FROM role_permission where id = 251301;
+                
+    
+DELETE FROM role_permission where id = 251302;
+                
+    
+DELETE FROM role_permission where id = 251303;
+                
+    
+DELETE FROM role_permission where id = 251304;
+                
+    
+DELETE FROM role_permission where id = 251305;
+                
+    
+DELETE FROM role_permission where id = 251306;
+                
+    
+DELETE FROM role_permission where id = 251307;
+                
+    
+DELETE FROM role_permission where id = 351301;
+                
+    
+DELETE FROM role_permission where id = 351302;
+                
+    
+DELETE FROM role_permission where id = 351303;
+                
+    
+DELETE FROM role_permission where id = 351304;
+                
+    
+DELETE FROM role_permission where id = 351305;
+                
+    
+DELETE FROM role_permission where id = 351306;
+                
+    
+DELETE FROM role_permission where id = 351307;
+                
+    
+DELETE FROM role_permission where id = 451301;
+                
+    
+DELETE FROM role_permission where id = 451302;
+                
+    
+DELETE FROM role_permission where id = 451303;
+                
+    
+DELETE FROM role_permission where id = 451304;
+                
+    
+DELETE FROM role_permission where id = 451305;
+                
+    
+DELETE FROM role_permission where id = 451306;
+                
+    
+DELETE FROM role_permission where id = 451307;
+                
+    
+DELETE FROM role_permission where id = 151401;
+                
+    
+DELETE FROM role_permission where id = 151402;
+                
+    
+DELETE FROM role_permission where id = 151403;
+                
+    
+DELETE FROM role_permission where id = 151404;
+                
+    
+DELETE FROM role_permission where id = 151405;
+                
+    
+DELETE FROM role_permission where id = 151406;
+                
+    
+DELETE FROM role_permission where id = 151407;
+                
+    
+DELETE FROM role_permission where id = 251401;
+                
+    
+DELETE FROM role_permission where id = 251402;
+                
+    
+DELETE FROM role_permission where id = 251403;
+                
+    
+DELETE FROM role_permission where id = 251404;
+                
+    
+DELETE FROM role_permission where id = 251405;
+                
+    
+DELETE FROM role_permission where id = 251406;
+                
+    
+DELETE FROM role_permission where id = 251407;
+                
+    
+DELETE FROM role_permission where id = 351401;
+                
+    
+DELETE FROM role_permission where id = 351402;
+                
+    
+DELETE FROM role_permission where id = 351403;
+                
+    
+DELETE FROM role_permission where id = 351404;
+                
+    
+DELETE FROM role_permission where id = 351405;
+                
+    
+DELETE FROM role_permission where id = 351406;
+                
+    
+DELETE FROM role_permission where id = 351407;
+                
+    
+DELETE FROM role_permission where id = 451401;
+                
+    
+DELETE FROM role_permission where id = 451402;
+                
+    
+DELETE FROM role_permission where id = 451403;
+                
+    
+DELETE FROM role_permission where id = 451404;
+                
+    
+DELETE FROM role_permission where id = 451405;
+                
+    
+DELETE FROM role_permission where id = 451406;
+                
+    
+DELETE FROM role_permission where id = 451407;
+                
+    
+DELETE FROM role_permission where id = 151501;
+                
+    
+DELETE FROM role_permission where id = 151502;
+                
+    
+DELETE FROM role_permission where id = 151503;
+                
+    
+DELETE FROM role_permission where id = 151504;
+                
+    
+DELETE FROM role_permission where id = 151505;
+                
+    
+DELETE FROM role_permission where id = 151506;
+                
+    
+DELETE FROM role_permission where id = 151507;
+                
+    
+DELETE FROM role_permission where id = 251501;
+                
+    
+DELETE FROM role_permission where id = 251502;
+                
+    
+DELETE FROM role_permission where id = 251503;
+                
+    
+DELETE FROM role_permission where id = 251504;
+                
+    
+DELETE FROM role_permission where id = 251505;
+                
+    
+DELETE FROM role_permission where id = 251506;
+                
+    
+DELETE FROM role_permission where id = 251507;
+                
+    
+DELETE FROM role_permission where id = 351501;
+                
+    
+DELETE FROM role_permission where id = 351502;
+                
+    
+DELETE FROM role_permission where id = 351503;
+                
+    
+DELETE FROM role_permission where id = 351504;
+                
+    
+DELETE FROM role_permission where id = 351505;
+                
+    
+DELETE FROM role_permission where id = 351506;
+                
+    
+DELETE FROM role_permission where id = 351507;
+                
+    
+DELETE FROM role_permission where id = 451501;
+                
+    
+DELETE FROM role_permission where id = 451502;
+                
+    
+DELETE FROM role_permission where id = 451503;
+                
+    
+DELETE FROM role_permission where id = 451504;
+                
+    
+DELETE FROM role_permission where id = 451505;
+                
+    
+DELETE FROM role_permission where id = 451506;
+                
+    
+DELETE FROM role_permission where id = 451507;
+                
+    
+DELETE FROM role_permission where id = 151601;
+                
+    
+DELETE FROM role_permission where id = 151602;
+                
+    
+DELETE FROM role_permission where id = 151603;
+                
+    
+DELETE FROM role_permission where id = 151604;
+                
+    
+DELETE FROM role_permission where id = 151605;
+                
+    
+DELETE FROM role_permission where id = 151606;
+                
+    
+DELETE FROM role_permission where id = 151607;
+                
+    
+DELETE FROM role_permission where id = 251601;
+                
+    
+DELETE FROM role_permission where id = 251602;
+                
+    
+DELETE FROM role_permission where id = 251603;
+                
+    
+DELETE FROM role_permission where id = 251604;
+                
+    
+DELETE FROM role_permission where id = 251605;
+                
+    
+DELETE FROM role_permission where id = 251606;
+                
+    
+DELETE FROM role_permission where id = 251607;
+                
+    
+DELETE FROM role_permission where id = 351601;
+                
+    
+DELETE FROM role_permission where id = 351602;
+                
+    
+DELETE FROM role_permission where id = 351603;
+                
+    
+DELETE FROM role_permission where id = 351604;
+                
+    
+DELETE FROM role_permission where id = 351605;
+                
+    
+DELETE FROM role_permission where id = 351606;
+                
+    
+DELETE FROM role_permission where id = 351607;
+                
+    
+DELETE FROM role_permission where id = 451601;
+                
+    
+DELETE FROM role_permission where id = 451602;
+                
+    
+DELETE FROM role_permission where id = 451603;
+                
+    
+DELETE FROM role_permission where id = 451604;
+                
+    
+DELETE FROM role_permission where id = 451605;
+                
+    
+DELETE FROM role_permission where id = 451606;
+                
+    
+DELETE FROM role_permission where id = 451607;
+                
+    
+DELETE FROM role_permission where id = 151701;
+                
+    
+DELETE FROM role_permission where id = 151702;
+                
+    
+DELETE FROM role_permission where id = 151703;
+                
+    
+DELETE FROM role_permission where id = 151704;
+                
+    
+DELETE FROM role_permission where id = 151705;
+                
+    
+DELETE FROM role_permission where id = 151706;
+                
+    
+DELETE FROM role_permission where id = 151707;
+                
+    
+DELETE FROM role_permission where id = 251701;
+                
+    
+DELETE FROM role_permission where id = 251702;
+                
+    
+DELETE FROM role_permission where id = 251703;
+                
+    
+DELETE FROM role_permission where id = 251704;
+                
+    
+DELETE FROM role_permission where id = 251705;
+                
+    
+DELETE FROM role_permission where id = 251706;
+                
+    
+DELETE FROM role_permission where id = 251707;
+                
+    
+DELETE FROM role_permission where id = 351701;
+                
+    
+DELETE FROM role_permission where id = 351702;
+                
+    
+DELETE FROM role_permission where id = 351703;
+                
+    
+DELETE FROM role_permission where id = 351704;
+                
+    
+DELETE FROM role_permission where id = 351705;
+                
+    
+DELETE FROM role_permission where id = 351706;
+                
+    
+DELETE FROM role_permission where id = 351707;
+                
+    
+DELETE FROM role_permission where id = 451701;
+                
+    
+DELETE FROM role_permission where id = 451702;
+                
+    
+DELETE FROM role_permission where id = 451703;
+                
+    
+DELETE FROM role_permission where id = 451704;
+                
+    
+DELETE FROM role_permission where id = 451705;
+                
+    
+DELETE FROM role_permission where id = 451706;
+                
+    
+DELETE FROM role_permission where id = 451707;
+                
+    
+DELETE FROM role_permission where id = 151801;
+                
+    
+DELETE FROM role_permission where id = 151802;
+                
+    
+DELETE FROM role_permission where id = 151803;
+                
+    
+DELETE FROM role_permission where id = 151804;
+                
+    
+DELETE FROM role_permission where id = 151805;
+                
+    
+DELETE FROM role_permission where id = 151806;
+                
+    
+DELETE FROM role_permission where id = 151807;
+                
+    
+DELETE FROM role_permission where id = 251801;
+                
+    
+DELETE FROM role_permission where id = 251802;
+                
+    
+DELETE FROM role_permission where id = 251803;
+                
+    
+DELETE FROM role_permission where id = 251804;
+                
+    
+DELETE FROM role_permission where id = 251805;
+                
+    
+DELETE FROM role_permission where id = 251806;
+                
+    
+DELETE FROM role_permission where id = 251807;
+                
+    
+DELETE FROM role_permission where id = 351801;
+                
+    
+DELETE FROM role_permission where id = 351802;
+                
+    
+DELETE FROM role_permission where id = 351803;
+                
+    
+DELETE FROM role_permission where id = 351804;
+                
+    
+DELETE FROM role_permission where id = 351805;
+                
+    
+DELETE FROM role_permission where id = 351806;
+                
+    
+DELETE FROM role_permission where id = 351807;
+                
+    
+DELETE FROM role_permission where id = 451801;
+                
+    
+DELETE FROM role_permission where id = 451802;
+                
+    
+DELETE FROM role_permission where id = 451803;
+                
+    
+DELETE FROM role_permission where id = 451804;
+                
+    
+DELETE FROM role_permission where id = 451805;
+                
+    
+DELETE FROM role_permission where id = 451806;
+                
+    
+DELETE FROM role_permission where id = 451807;
+                
+    
+DELETE FROM role_permission where id = 151901;
+                
+    
+DELETE FROM role_permission where id = 151902;
+                
+    
+DELETE FROM role_permission where id = 151903;
+                
+    
+DELETE FROM role_permission where id = 151904;
+                
+    
+DELETE FROM role_permission where id = 151905;
+                
+    
+DELETE FROM role_permission where id = 151906;
+                
+    
+DELETE FROM role_permission where id = 151907;
+                
+    
+DELETE FROM role_permission where id = 251901;
+                
+    
+DELETE FROM role_permission where id = 251902;
+                
+    
+DELETE FROM role_permission where id = 251903;
+                
+    
+DELETE FROM role_permission where id = 251904;
+                
+    
+DELETE FROM role_permission where id = 251905;
+                
+    
+DELETE FROM role_permission where id = 251906;
+                
+    
+DELETE FROM role_permission where id = 251907;
+                
+    
+DELETE FROM role_permission where id = 351901;
+                
+    
+DELETE FROM role_permission where id = 351902;
+                
+    
+DELETE FROM role_permission where id = 351903;
+                
+    
+DELETE FROM role_permission where id = 351904;
+                
+    
+DELETE FROM role_permission where id = 351905;
+                
+    
+DELETE FROM role_permission where id = 351906;
+                
+    
+DELETE FROM role_permission where id = 351907;
+                
+    
+DELETE FROM role_permission where id = 451901;
+                
+    
+DELETE FROM role_permission where id = 451902;
+                
+    
+DELETE FROM role_permission where id = 451903;
+                
+    
+DELETE FROM role_permission where id = 451904;
+                
+    
+DELETE FROM role_permission where id = 451905;
+                
+    
+DELETE FROM role_permission where id = 451906;
+                
+    
+DELETE FROM role_permission where id = 451907;
+                
+    
+DELETE FROM role_permission where id = 152001;
+                
+    
+DELETE FROM role_permission where id = 152002;
+                
+    
+DELETE FROM role_permission where id = 152003;
+                
+    
+DELETE FROM role_permission where id = 152004;
+                
+    
+DELETE FROM role_permission where id = 152005;
+                
+    
+DELETE FROM role_permission where id = 152006;
+                
+    
+DELETE FROM role_permission where id = 152007;
+                
+    
+DELETE FROM role_permission where id = 252001;
+                
+    
+DELETE FROM role_permission where id = 252002;
+                
+    
+DELETE FROM role_permission where id = 252003;
+                
+    
+DELETE FROM role_permission where id = 252004;
+                
+    
+DELETE FROM role_permission where id = 252005;
+                
+    
+DELETE FROM role_permission where id = 252006;
+                
+    
+DELETE FROM role_permission where id = 252007;
+                
+    
+DELETE FROM role_permission where id = 352001;
+                
+    
+DELETE FROM role_permission where id = 352002;
+                
+    
+DELETE FROM role_permission where id = 352003;
+                
+    
+DELETE FROM role_permission where id = 352004;
+                
+    
+DELETE FROM role_permission where id = 352005;
+                
+    
+DELETE FROM role_permission where id = 352006;
+                
+    
+DELETE FROM role_permission where id = 352007;
+                
+    
+DELETE FROM role_permission where id = 452001;
+                
+    
+DELETE FROM role_permission where id = 452002;
+                
+    
+DELETE FROM role_permission where id = 452003;
+                
+    
+DELETE FROM role_permission where id = 452004;
+                
+    
+DELETE FROM role_permission where id = 452005;
+                
+    
+DELETE FROM role_permission where id = 452006;
+                
+    
+DELETE FROM role_permission where id = 452007;
+                
+    
+DELETE FROM role_permission where id = 152101;
+                
+    
+DELETE FROM role_permission where id = 152102;
+                
+    
+DELETE FROM role_permission where id = 152103;
+                
+    
+DELETE FROM role_permission where id = 152104;
+                
+    
+DELETE FROM role_permission where id = 152105;
+                
+    
+DELETE FROM role_permission where id = 152106;
+                
+    
+DELETE FROM role_permission where id = 152107;
+                
+    
+DELETE FROM role_permission where id = 252101;
+                
+    
+DELETE FROM role_permission where id = 252102;
+                
+    
+DELETE FROM role_permission where id = 252103;
+                
+    
+DELETE FROM role_permission where id = 252104;
+                
+    
+DELETE FROM role_permission where id = 252105;
+                
+    
+DELETE FROM role_permission where id = 252106;
+                
+    
+DELETE FROM role_permission where id = 252107;
+                
+    
+DELETE FROM role_permission where id = 352101;
+                
+    
+DELETE FROM role_permission where id = 352102;
+                
+    
+DELETE FROM role_permission where id = 352103;
+                
+    
+DELETE FROM role_permission where id = 352104;
+                
+    
+DELETE FROM role_permission where id = 352105;
+                
+    
+DELETE FROM role_permission where id = 352106;
+                
+    
+DELETE FROM role_permission where id = 352107;
+                
+    
+DELETE FROM role_permission where id = 452101;
+                
+    
+DELETE FROM role_permission where id = 452102;
+                
+    
+DELETE FROM role_permission where id = 452103;
+                
+    
+DELETE FROM role_permission where id = 452104;
+                
+    
+DELETE FROM role_permission where id = 452105;
+                
+    
+DELETE FROM role_permission where id = 452106;
+                
+    
+DELETE FROM role_permission where id = 452107;
+                
+    
+DELETE FROM role_permission where id = 152201;
+                
+    
+DELETE FROM role_permission where id = 152202;
+                
+    
+DELETE FROM role_permission where id = 152203;
+                
+    
+DELETE FROM role_permission where id = 152204;
+                
+    
+DELETE FROM role_permission where id = 152205;
+                
+    
+DELETE FROM role_permission where id = 152206;
+                
+    
+DELETE FROM role_permission where id = 152207;
+                
+    
+DELETE FROM role_permission where id = 252201;
+                
+    
+DELETE FROM role_permission where id = 252202;
+                
+    
+DELETE FROM role_permission where id = 252203;
+                
+    
+DELETE FROM role_permission where id = 252204;
+                
+    
+DELETE FROM role_permission where id = 252205;
+                
+    
+DELETE FROM role_permission where id = 252206;
+                
+    
+DELETE FROM role_permission where id = 252207;
+                
+    
+DELETE FROM role_permission where id = 352201;
+                
+    
+DELETE FROM role_permission where id = 352202;
+                
+    
+DELETE FROM role_permission where id = 352203;
+                
+    
+DELETE FROM role_permission where id = 352204;
+                
+    
+DELETE FROM role_permission where id = 352205;
+                
+    
+DELETE FROM role_permission where id = 352206;
+                
+    
+DELETE FROM role_permission where id = 352207;
+                
+    
+DELETE FROM role_permission where id = 452201;
+                
+    
+DELETE FROM role_permission where id = 452202;
+                
+    
+DELETE FROM role_permission where id = 452203;
+                
+    
+DELETE FROM role_permission where id = 452204;
+                
+    
+DELETE FROM role_permission where id = 452205;
+                
+    
+DELETE FROM role_permission where id = 452206;
+                
+    
+DELETE FROM role_permission where id = 452207;
+                
+    
             DELETE FROM permission  where id = 50101;
             
     
@@ -1614,4 +3000,235 @@ DELETE FROM role_permission where id = 451107;
             
     
             DELETE FROM permission  where id = 51107;
+            
+    
+            DELETE FROM permission  where id = 51201;
+            
+    
+            DELETE FROM permission  where id = 51202;
+            
+    
+            DELETE FROM permission  where id = 51203;
+            
+    
+            DELETE FROM permission  where id = 51204;
+            
+    
+            DELETE FROM permission  where id = 51205;
+            
+    
+            DELETE FROM permission  where id = 51206;
+            
+    
+            DELETE FROM permission  where id = 51207;
+            
+    
+            DELETE FROM permission  where id = 51301;
+            
+    
+            DELETE FROM permission  where id = 51302;
+            
+    
+            DELETE FROM permission  where id = 51303;
+            
+    
+            DELETE FROM permission  where id = 51304;
+            
+    
+            DELETE FROM permission  where id = 51305;
+            
+    
+            DELETE FROM permission  where id = 51306;
+            
+    
+            DELETE FROM permission  where id = 51307;
+            
+    
+            DELETE FROM permission  where id = 51401;
+            
+    
+            DELETE FROM permission  where id = 51402;
+            
+    
+            DELETE FROM permission  where id = 51403;
+            
+    
+            DELETE FROM permission  where id = 51404;
+            
+    
+            DELETE FROM permission  where id = 51405;
+            
+    
+            DELETE FROM permission  where id = 51406;
+            
+    
+            DELETE FROM permission  where id = 51407;
+            
+    
+            DELETE FROM permission  where id = 51501;
+            
+    
+            DELETE FROM permission  where id = 51502;
+            
+    
+            DELETE FROM permission  where id = 51503;
+            
+    
+            DELETE FROM permission  where id = 51504;
+            
+    
+            DELETE FROM permission  where id = 51505;
+            
+    
+            DELETE FROM permission  where id = 51506;
+            
+    
+            DELETE FROM permission  where id = 51507;
+            
+    
+            DELETE FROM permission  where id = 51601;
+            
+    
+            DELETE FROM permission  where id = 51602;
+            
+    
+            DELETE FROM permission  where id = 51603;
+            
+    
+            DELETE FROM permission  where id = 51604;
+            
+    
+            DELETE FROM permission  where id = 51605;
+            
+    
+            DELETE FROM permission  where id = 51606;
+            
+    
+            DELETE FROM permission  where id = 51607;
+            
+    
+            DELETE FROM permission  where id = 51701;
+            
+    
+            DELETE FROM permission  where id = 51702;
+            
+    
+            DELETE FROM permission  where id = 51703;
+            
+    
+            DELETE FROM permission  where id = 51704;
+            
+    
+            DELETE FROM permission  where id = 51705;
+            
+    
+            DELETE FROM permission  where id = 51706;
+            
+    
+            DELETE FROM permission  where id = 51707;
+            
+    
+            DELETE FROM permission  where id = 51801;
+            
+    
+            DELETE FROM permission  where id = 51802;
+            
+    
+            DELETE FROM permission  where id = 51803;
+            
+    
+            DELETE FROM permission  where id = 51804;
+            
+    
+            DELETE FROM permission  where id = 51805;
+            
+    
+            DELETE FROM permission  where id = 51806;
+            
+    
+            DELETE FROM permission  where id = 51807;
+            
+    
+            DELETE FROM permission  where id = 51901;
+            
+    
+            DELETE FROM permission  where id = 51902;
+            
+    
+            DELETE FROM permission  where id = 51903;
+            
+    
+            DELETE FROM permission  where id = 51904;
+            
+    
+            DELETE FROM permission  where id = 51905;
+            
+    
+            DELETE FROM permission  where id = 51906;
+            
+    
+            DELETE FROM permission  where id = 51907;
+            
+    
+            DELETE FROM permission  where id = 52001;
+            
+    
+            DELETE FROM permission  where id = 52002;
+            
+    
+            DELETE FROM permission  where id = 52003;
+            
+    
+            DELETE FROM permission  where id = 52004;
+            
+    
+            DELETE FROM permission  where id = 52005;
+            
+    
+            DELETE FROM permission  where id = 52006;
+            
+    
+            DELETE FROM permission  where id = 52007;
+            
+    
+            DELETE FROM permission  where id = 52101;
+            
+    
+            DELETE FROM permission  where id = 52102;
+            
+    
+            DELETE FROM permission  where id = 52103;
+            
+    
+            DELETE FROM permission  where id = 52104;
+            
+    
+            DELETE FROM permission  where id = 52105;
+            
+    
+            DELETE FROM permission  where id = 52106;
+            
+    
+            DELETE FROM permission  where id = 52107;
+            
+    
+            DELETE FROM permission  where id = 52201;
+            
+    
+            DELETE FROM permission  where id = 52202;
+            
+    
+            DELETE FROM permission  where id = 52203;
+            
+    
+            DELETE FROM permission  where id = 52204;
+            
+    
+            DELETE FROM permission  where id = 52205;
+            
+    
+            DELETE FROM permission  where id = 52206;
+            
+    
+            DELETE FROM permission  where id = 52207;
             
