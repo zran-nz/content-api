@@ -2,7 +2,7 @@ import org.jetbrains.kotlin.gradle.tasks.KotlinCompile
 import org.springframework.boot.gradle.tasks.bundling.BootJar
 
 plugins {
-    val kotlinVersion = "1.4.10"
+    val kotlinVersion = "1.4.20"
     jacoco
     id("org.springframework.boot") version "2.4.0"
     id("io.spring.dependency-management") version "1.0.10.RELEASE"
@@ -36,7 +36,7 @@ dependencies {
     implementation("com.github.b1412:api-common:5ba35feadd")
     implementation("com.github.b1412:permission-base:0.1.16")
 
-    implementation("com.github.b1412:generator-tasks:11e23d1673")
+    implementation("com.github.b1412:generator-tasks:ec77fe6873")
     implementation("com.github.b1412:kotlin-code-generator:790498a17d")
 
 

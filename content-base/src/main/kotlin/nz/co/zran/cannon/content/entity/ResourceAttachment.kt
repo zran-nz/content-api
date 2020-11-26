@@ -18,7 +18,5 @@ data class ResourceAttachment(
         val hint: String?,
         val field: String?,
         val value: String?,
-        val sort: Int?,
-        @OneToMany
-        val attachment: MutableList<Attachment> = mutableListOf()
+        val sort: Int?
 ) : BaseEntity()

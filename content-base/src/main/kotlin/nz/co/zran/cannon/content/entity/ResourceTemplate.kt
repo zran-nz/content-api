@@ -13,7 +13,6 @@ import javax.validation.constraints.NotNull
 @DynamicInsert
 data class ResourceTemplate(
         val name: String,
-        @ManyToOne
         @NotNull
         @OneToMany(cascade = [CascadeType.ALL], orphanRemoval = true)
         val resourceComponents: MutableList<ResourceComponent> = mutableListOf()

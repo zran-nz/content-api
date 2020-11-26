@@ -14,6 +14,7 @@ import javax.validation.constraints.NotNull
 @DynamicUpdate
 @DynamicInsert
 data class ComponentAttachment(
-        @OneToMany
-        val attachments: MutableList<Attachment> = mutableListOf()
+//        @OneToMany
+//        val attachments: MutableList<Attachment> = mutableListOf()
+        val temp: String?
 ) : BaseEntity()
