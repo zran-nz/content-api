@@ -38,7 +38,7 @@ repositories {
 
 dependencies {
     api(project(":content-api"))
-    implementation("com.github.b1412:permission-api:0.1.15")
+    implementation("com.github.b1412:permission-api:0.1.16")
     implementation("com.github.b1412:api-common:5ba35feadd")
 
     val arrowVersion = "0.11.0"
