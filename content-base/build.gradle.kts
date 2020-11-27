@@ -49,7 +49,7 @@ repositories {
 dependencies {
     val arrowVersion = "0.11.0"
     implementation("com.github.b1412:api-common:5ba35feadd")
-    implementation("com.github.b1412:permission-base:0.1.16")
+    implementation("com.github.b1412:permission-base:0.1.19")
     implementation("com.github.b1412:email-base:0.1.19")
     implementation("com.github.b1412:kotlin-code-generator-meta:8c10be3699")
 

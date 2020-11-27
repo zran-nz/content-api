@@ -53,7 +53,7 @@ dependencies {
     val arrowVersion = "0.11.0"
     api(project(":content-generated"))
     implementation("com.github.b1412:api-common:5ba35feadd")
-    implementation("com.github.b1412:permission-api:0.1.16")
+    implementation("com.github.b1412:permission-api:0.1.19")
 
     implementation("org.jetbrains.kotlin:kotlin-reflect")
     implementation("org.jetbrains.kotlin:kotlin-stdlib-jdk8")
@@ -67,17 +67,8 @@ dependencies {
     implementation("org.jooq:joor-java-8:0.9.12")
     implementation("io.github.microutils:kotlin-logging:1.7.6")
     implementation("io.jsonwebtoken:jjwt:0.7.0")
-    implementation("commons-beanutils:commons-beanutils:1.9.4")
 
     implementation("com.amazonaws:aws-java-sdk-s3:1.11.210")
-
-    implementation ("com.github.czyzby:kotlin-times:1.0")
-    implementation("org.jxls:jxls:2.4.0")
-    implementation("org.jxls:jxls-poi:1.0.12")
-    implementation("org.jxls:jxls-jexcel:1.0.6")
-    implementation("org.jxls:jxls-reader:2.0.2")
-
-    implementation("org.apache.commons:commons-csv:1.8")
     implementation("commons-fileupload:commons-fileupload:1.3.1")
     implementation("com.vladmihalcea:hibernate-types-52:2.10.0")
 

@@ -27,6 +27,9 @@ class ComponentCheckboxExcelParsingRule(
     fileParser.addCell(5, "cssClassName")
     fileParser.addCell(6, "required")
     fileParser.addCell(7, "sort")
+    fileParser.addCell(8, "externalConfig")
+    fileParser.addCell(9, "externalName")
+    fileParser.addCell(10, "externalId")
         return fileParser
     }
 

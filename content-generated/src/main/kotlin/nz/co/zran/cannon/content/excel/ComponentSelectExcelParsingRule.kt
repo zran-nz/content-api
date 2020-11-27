@@ -31,6 +31,9 @@ class ComponentSelectExcelParsingRule(
     fileParser.addCell(9, "cssClassName")
     fileParser.addCell(10, "required")
     fileParser.addCell(11, "sort")
+    fileParser.addCell(12, "externalConfig")
+    fileParser.addCell(13, "externalName")
+    fileParser.addCell(14, "externalId")
         return fileParser
     }
 

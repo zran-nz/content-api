@@ -30,6 +30,9 @@ class ComponentRadioExcelParsingRule(
     fileParser.addCell(8, "cssClassName")
     fileParser.addCell(9, "required")
     fileParser.addCell(10, "sort")
+    fileParser.addCell(11, "externalConfig")
+    fileParser.addCell(12, "externalName")
+    fileParser.addCell(13, "externalId")
         return fileParser
     }
 

@@ -34,7 +34,7 @@ repositories {
 dependencies {
     implementation(project(":content-base"))
     implementation("com.github.b1412:api-common:5ba35feadd")
-    implementation("com.github.b1412:permission-base:0.1.16")
+    implementation("com.github.b1412:permission-base:0.1.19")
 
     implementation("com.github.b1412:generator-tasks:8acf3cd13a")
     implementation("com.github.b1412:kotlin-code-generator:790498a17d")
