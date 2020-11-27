@@ -37,11 +37,4 @@ class BaseComponent : BaseEntity() {
     val cssClassName: String? = null
     var required: Boolean? = false
     val sort: Int? = null
-
-    @Type(type = "json")
-    @Column(columnDefinition = "json")
-    @GraphQLIgnore
-    val externalConfig: List<ExternalConfig> = mutableListOf()
-    val externalName: String? = null
-    val externalId: String? = null
 }
