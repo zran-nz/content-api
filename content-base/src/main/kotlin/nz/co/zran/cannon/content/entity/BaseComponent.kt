@@ -4,6 +4,10 @@ import com.fasterxml.jackson.annotation.JsonSubTypes
 import com.fasterxml.jackson.annotation.JsonTypeInfo
 import com.github.b1412.api.entity.BaseEntity
 import com.github.b1412.generator.metadata.EntityFeature
+import com.github.b1412.permission.graphql.annotation.GraphQLIgnore
+import nz.co.zran.cannon.content.entity.json.ExternalConfig
+import org.hibernate.annotations.Type
+import javax.persistence.Column
 import javax.persistence.Entity
 import javax.persistence.Inheritance
 import javax.persistence.InheritanceType
@@ -26,13 +30,18 @@ import javax.persistence.InheritanceType
         JsonSubTypes.Type(value = ComponentDisplayText::class, name = "displayText"),
         JsonSubTypes.Type(value = ComponentQuiz::class, name = "quiz")
 )
-class BaseComponent(
-
-) : BaseEntity() {
+class BaseComponent : BaseEntity() {
     override var id: Long? = null
     val label: String? = null
     val fieldId: String? = null
     val cssClassName: String? = null
     var required: Boolean? = false
     val sort: Int? = null
+
+    @Type(type = "json")
+    @Column(columnDefinition = "json")
+    @GraphQLIgnore
+    val externalConfig: List<ExternalConfig> = mutableListOf()
+    val externalName: String? = null
+    val externalId: String? = null
 }

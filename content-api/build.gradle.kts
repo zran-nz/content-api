@@ -80,7 +80,7 @@ dependencies {
     implementation("org.apache.commons:commons-csv:1.8")
     implementation("commons-fileupload:commons-fileupload:1.3.1")
     implementation("com.vladmihalcea:hibernate-types-52:2.10.0")
-    implementation("org.codehaus.groovy:groovy-jsr223:2.4.3")
+
 
     testImplementation("org.junit.jupiter:junit-jupiter-api")
     testImplementation("org.springframework.boot:spring-boot-starter-test") {

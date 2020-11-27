@@ -57,7 +57,6 @@ dependencies {
     implementation("org.jetbrains.kotlin:kotlin-reflect")
     implementation("org.jetbrains.kotlin:kotlin-stdlib-jdk8")
     springboot()
-    graphql()
     implementation("com.fasterxml.jackson.module:jackson-module-kotlin")
     implementation("com.h2database:h2")
     arrow(arrowVersion)
@@ -65,7 +64,8 @@ dependencies {
     implementation("io.github.microutils:kotlin-logging:1.7.6")
     implementation("io.jsonwebtoken:jjwt:0.7.0")
     implementation("commons-beanutils:commons-beanutils:1.9.4")
-    implementation("org.codehaus.groovy:groovy-jsr223:2.4.3")
+
+    implementation("com.vladmihalcea:hibernate-types-52:2.10.0")
     testImplementation("org.junit.jupiter:junit-jupiter-api:5.7.0")
     testImplementation("org.springframework.boot:spring-boot-starter-test") {
         exclude(module = "junit")
@@ -97,12 +97,7 @@ fun DependencyHandlerScope.arrow(arrowVersion: String) {
     implementation("io.arrow-kt:arrow-syntax:$arrowVersion")
 }
 
-fun DependencyHandlerScope.graphql() {
-    implementation("com.graphql-java-kickstart:playground-spring-boot-starter:5.10.0")
-    implementation("com.graphql-java:graphql-spring-boot-starter:5.0.2")
-    implementation("com.graphql-java:graphiql-spring-boot-starter:5.0.2")
-    implementation("com.graphql-java:graphql-java-tools:5.2.4")
-}
+
 tasks.withType<KotlinCompile> {
     kotlinOptions {
         freeCompilerArgs = listOf("-Xjsr305=strict", "-Xallow-result-return-type")
