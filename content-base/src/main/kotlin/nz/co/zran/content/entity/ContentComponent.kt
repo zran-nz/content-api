@@ -27,6 +27,7 @@ data class ContentComponent(
         @Column(columnDefinition = "json")
         @GraphQLIgnore
         val externalConfig: List<ExternalConfig> = mutableListOf(),
+        val externalConfigString: String? = null,
         val externalName: String? = null,
         val externalId: String? = null
 ) : BaseEntity()
