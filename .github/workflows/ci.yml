@@ -1,12 +1,12 @@
 name: Content API CI
-
 on:
   push:
-    branches: [ master ]
+    branches:
+      - master
+      - develop
   pull_request:
-    branches: [ master ]
-  release:
-    types: [published]
+    branches:
+      - master
 jobs:
   build:
     name: Build
@@ -32,6 +32,7 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Push image to GitHub Packages
+        if: github.ref == 'refs/heads/develop' && github.event_name == 'push'
         uses: docker/build-push-action@v1
         with:
           username: ${{ github.actor }}
