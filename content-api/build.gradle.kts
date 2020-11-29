@@ -23,10 +23,10 @@ noArg {
     annotation("javax.persistence.MappedSuperclass")
 }
 
-java.sourceCompatibility = JavaVersion.VERSION_11
 
-group = "com.github.zran-nz"
-version = "0.1.5"
+
+val group: String by project
+val version: String by project
 
 val jar: Jar by tasks
 val bootJar: BootJar by tasks
@@ -34,7 +34,7 @@ val bootJar: BootJar by tasks
 bootJar.enabled = false
 jar.enabled = true
 
-java.sourceCompatibility = JavaVersion.VERSION_11
+
 
 repositories {
     mavenCentral()

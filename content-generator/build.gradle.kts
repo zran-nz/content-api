@@ -9,14 +9,15 @@ plugins {
     kotlin("jvm") version kotlinVersion
 }
 
+val group: String by project
+val version: String by project
 val jar: Jar by tasks
 val bootJar: BootJar by tasks
 
 bootJar.enabled = false
 jar.enabled = true
 
-version = "0.1.5"
-java.sourceCompatibility = JavaVersion.VERSION_11
+
 
 repositories {
     mavenCentral()
