@@ -31,13 +31,13 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
-      - name: Push image to GitHub Packages
-        if: github.ref == 'refs/heads/develop' && github.event_name == 'push'
-        uses: docker/build-push-action@v1
-        with:
-          username: ${{ github.actor }}
-          password: ${{ secrets.GITHUB_TOKEN }}
-          registry: docker.pkg.github.com
-          repository: zran-nz/content-api/content-api
-          tag_with_ref: true
+#      - name: Push image to GitHub Packages
+#        if: github.ref == 'refs/heads/develop' && github.event_name == 'push'
+#        uses: docker/build-push-action@v1
+#        with:
+#          username: ${{ github.actor }}
+#          password: ${{ secrets.GITHUB_TOKEN }}
+#          registry: docker.pkg.github.com
+#          repository: zran-nz/content-api/content-api
+#          tag_with_ref: true
 
