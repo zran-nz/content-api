@@ -31,7 +31,6 @@ import javax.persistence.InheritanceType
         JsonSubTypes.Type(value = ComponentQuiz::class, name = "quiz")
 )
 class BaseComponent : BaseEntity() {
-    override var id: Long? = null
     val label: String? = null
     val fieldId: String? = null
     val cssClassName: String? = null

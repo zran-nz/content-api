@@ -23,6 +23,7 @@ noArg{
 
 java.sourceCompatibility = JavaVersion.VERSION_11
 
+
 repositories {
     mavenCentral()
     maven { url = uri("https://repo.spring.io/milestone") }
@@ -38,7 +39,7 @@ repositories {
 
 dependencies {
     api(project(":content-api"))
-    implementation("com.github.b1412:permission-api:0.1.19")
+    implementation("com.github.b1412:permission-api:0.1.20")
     implementation("com.github.b1412:api-common:5ba35feadd")
 
     val arrowVersion = "0.11.0"
@@ -67,6 +68,7 @@ dependencies {
 
 
 fun DependencyHandlerScope.springboot() {
+    implementation("org.springframework.boot:spring-boot-devtools")
     implementation("org.springframework.boot:spring-boot-starter-validation")
     implementation("org.springframework.boot:spring-boot-starter-data-jpa")
     implementation("org.springframework.boot:spring-boot-starter-freemarker")

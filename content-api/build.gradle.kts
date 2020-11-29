@@ -53,7 +53,7 @@ dependencies {
     val arrowVersion = "0.11.0"
     api(project(":content-generated"))
     implementation("com.github.b1412:api-common:5ba35feadd")
-    implementation("com.github.b1412:permission-api:0.1.19")
+    implementation("com.github.b1412:permission-api:0.1.20")
 
     implementation("org.jetbrains.kotlin:kotlin-reflect")
     implementation("org.jetbrains.kotlin:kotlin-stdlib-jdk8")
@@ -87,6 +87,7 @@ dependencies {
 
 
 fun DependencyHandlerScope.springboot() {
+    implementation("org.springframework.boot:spring-boot-devtools")
     implementation("org.springframework.boot:spring-boot-starter-validation")
     implementation("org.springframework.boot:spring-boot-starter-data-jpa")
     implementation("org.springframework.boot:spring-boot-starter-freemarker")
