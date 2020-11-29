@@ -27,7 +27,7 @@ allOpen {
 }
 
 group = "com.github.zran-nz"
-version = "0.1.3"
+version = "0.1.4"
 java.sourceCompatibility = JavaVersion.VERSION_11
 
 

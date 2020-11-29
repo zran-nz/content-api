@@ -10,8 +10,8 @@ import javax.persistence.Entity
 @DynamicInsert
 @Entity
 data class ComponentRadio(
-    var value: String?,
-    var optionsUrl: String?,
-    var optionLabel: String?,
-    var optionValue: String?
+        var value: String?,
+        var optionsUrl: String?,
+        var optionLabel: String?,
+        var optionValue: String?
 ) : BaseComponent()

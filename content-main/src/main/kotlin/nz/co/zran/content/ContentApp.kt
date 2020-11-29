@@ -7,12 +7,12 @@ import org.springframework.boot.autoconfigure.security.servlet.SecurityAutoConfi
 import org.springframework.boot.runApplication
 
 @SpringBootApplication(
-        scanBasePackages = ["com.github.b1412.*", "nz.co.zran.content.*"],
+        scanBasePackages = ["com.github.b1412.*", "nz.co.zran.*"],
         exclude = [
             SecurityAutoConfiguration::class,
             ApplicationAvailabilityAutoConfiguration::class]
 )
-@EntityScan("com.github.b1412.*", "nz.co.zran.content.*")
+@EntityScan("com.github.b1412.*", "nz.co.zran.*")
 class ContentApp
 
 fun main(args: Array<String>) {

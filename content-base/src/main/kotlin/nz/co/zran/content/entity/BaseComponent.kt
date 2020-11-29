@@ -4,10 +4,7 @@ import com.fasterxml.jackson.annotation.JsonSubTypes
 import com.fasterxml.jackson.annotation.JsonTypeInfo
 import com.github.b1412.api.entity.BaseEntity
 import com.github.b1412.generator.metadata.EntityFeature
-import com.github.b1412.permission.graphql.annotation.GraphQLIgnore
-import nz.co.zran.content.entity.json.ExternalConfig
 import org.hibernate.annotations.Type
-import javax.persistence.Column
 import javax.persistence.Entity
 import javax.persistence.Inheritance
 import javax.persistence.InheritanceType
@@ -34,6 +31,8 @@ class BaseComponent : BaseEntity() {
     val label: String? = null
     val fieldId: String? = null
     val cssClassName: String? = null
+
+    @Type(type = "yes_no")
     var required: Boolean? = false
     val sort: Int? = null
 }

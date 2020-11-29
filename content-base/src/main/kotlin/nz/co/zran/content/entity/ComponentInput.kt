@@ -10,5 +10,5 @@ import javax.persistence.Entity
 @DynamicInsert
 @Entity
 data class ComponentInput(
-    var value: String?
+        var value: String?
 ) : BaseComponent()

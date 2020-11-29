@@ -17,8 +17,8 @@ data class ComponentQuiz(
         val title: String?,
         @Enumerated(EnumType.STRING)
         @NotNull
-        val quizChoiceType: ComponentQuizChoiceType?,
+        val type: ComponentQuizChoiceType?,
         @OneToMany(orphanRemoval = true, cascade = [CascadeType.ALL])
-        val quizChoices: MutableList<ComponentQuizChoice> = mutableListOf(),
+        val choices: MutableList<ComponentQuizChoice> = mutableListOf(),
         val hint: String?
 ) : BaseComponent()

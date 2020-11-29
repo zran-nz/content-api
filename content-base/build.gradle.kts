@@ -3,7 +3,7 @@ import org.springframework.boot.gradle.tasks.bundling.BootJar
 
 plugins {
     val kotlinVersion = "1.4.20"
-    id("org.springframework.boot") version "2.3.0.RELEASE"
+    id("org.springframework.boot") version "2.4.0"
     id("io.spring.dependency-management") version "1.0.10.RELEASE"
     kotlin("jvm") version kotlinVersion
     kotlin("plugin.jpa") version kotlinVersion
@@ -14,7 +14,7 @@ plugins {
 }
 
 group = "com.github.zran-nz"
-version = "0.1.3"
+version = "0.1.4"
 
 val jar: Jar by tasks
 val bootJar: BootJar by tasks

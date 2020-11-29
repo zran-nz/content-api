@@ -3,6 +3,7 @@ package nz.co.zran.content.entity
 import com.github.b1412.generator.metadata.EntityFeature
 import org.hibernate.annotations.DynamicInsert
 import org.hibernate.annotations.DynamicUpdate
+import org.hibernate.annotations.Type
 import javax.persistence.Entity
 
 @EntityFeature
@@ -10,5 +11,6 @@ import javax.persistence.Entity
 @DynamicInsert
 @Entity
 data class ComponentCheckbox(
-    var checked: Boolean?
+        @Type(type = "yes_no")
+        var checked: Boolean?
 ) : BaseComponent()

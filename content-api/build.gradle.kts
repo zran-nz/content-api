@@ -26,7 +26,7 @@ noArg {
 java.sourceCompatibility = JavaVersion.VERSION_11
 
 group = "com.github.zran-nz"
-version = "0.1.3"
+version = "0.1.4"
 
 val jar: Jar by tasks
 val bootJar: BootJar by tasks
