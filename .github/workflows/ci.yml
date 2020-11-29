@@ -1,10 +1,10 @@
-name: Config API CI
+name: Content API CI
 
 on:
   push:
-    branches: [ main ]
+    branches: [ master ]
   pull_request:
-    branches: [ main ]
+    branches: [ master ]
   release:
     types: [published]
 jobs:
