@@ -47,7 +47,7 @@ repositories {
 
 dependencies {
     api("com.github.b1412:api-common:06fd37d214")
-    api("com.github.b1412:permission-base:0.1.22")
+    api("com.github.b1412:permission-base:0.1.23")
     api("com.github.b1412:email-base:0.1.20")
     api("com.github.b1412:kotlin-code-generator-meta:8c10be3699")
 }

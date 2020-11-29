@@ -48,7 +48,7 @@ repositories {
 dependencies {
     api(project(":content-base"))
     api("com.github.b1412:api-common:06fd37d214")
-    api("com.github.b1412:permission-base:0.1.22")
+    api("com.github.b1412:permission-base:0.1.23")
 
 }
 

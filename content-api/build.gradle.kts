@@ -51,7 +51,7 @@ repositories {
 
 dependencies {
     api(project(":content-generated"))
-    api("com.github.b1412:permission-api:0.1.22")
+    api("com.github.b1412:permission-api:0.1.23")
 }
 
 
