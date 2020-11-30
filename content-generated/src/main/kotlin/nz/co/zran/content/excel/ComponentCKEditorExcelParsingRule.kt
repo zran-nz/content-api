@@ -1,6 +1,6 @@
 package nz.co.zran.content.excel
 
-import nz.co.zran.content.entity.ComponentCheckbox
+import nz.co.zran.content.entity.ComponentCKEditor
 import com.github.b1412.excel.service.ExcelParsingRule
 import com.github.b1412.files.parser.FileParser
 import com.github.b1412.excel.convertor.*
@@ -10,11 +10,11 @@ import javax.persistence.EntityManager
 
 
 @Component
-class ComponentCheckboxExcelParsingRule(
+class ComponentCKEditorExcelParsingRule(
         @Autowired
         val entityManager: EntityManager
 
-) : ExcelParsingRule<ComponentCheckbox> {
+) : ExcelParsingRule<ComponentCKEditor> {
 
     override val fileParser: FileParser
     get() {
@@ -30,12 +30,12 @@ class ComponentCheckboxExcelParsingRule(
     }
 
     override val entityClass: Class<*>
-    get() = ComponentCheckbox::class.java
+    get() = ComponentCKEditor::class.java
 
     override val ruleName: String
-    get() = "componentCheckbox"
+    get() = "componentCKEditor"
 
-    override fun process(data: List<ComponentCheckbox>) {
+    override fun process(data: List<ComponentCKEditor>) {
         data.forEach{
             entityManager.persist(it)
         }

@@ -20,15 +20,16 @@ class ComponentQuizExcelParsingRule(
     get() {
         val fileParser = FileParser()
         fileParser.start = 1
-    fileParser.addCell(1, "title")
-    fileParser.addCell(2, "quizChoiceType")
-    fileParser.addCell(3, "quizChoices")
-    fileParser.addCell(4, "hint")
-    fileParser.addCell(5, "label")
-    fileParser.addCell(6, "fieldId")
-    fileParser.addCell(7, "cssClassName")
-    fileParser.addCell(8, "required")
-    fileParser.addCell(9, "sort")
+    fileParser.addCell(1, "value")
+    fileParser.addCell(2, "title")
+    fileParser.addCell(3, "choiceType")
+    fileParser.addCell(4, "choices")
+    fileParser.addCell(5, "hint")
+    fileParser.addCell(6, "label")
+    fileParser.addCell(7, "fieldId")
+    fileParser.addCell(8, "cssClassName")
+    fileParser.addCell(9, "required")
+    fileParser.addCell(10, "sort")
         return fileParser
     }
 

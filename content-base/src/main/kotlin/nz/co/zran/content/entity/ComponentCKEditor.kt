@@ -10,7 +10,7 @@ import javax.persistence.Entity
 @DynamicUpdate
 @DynamicInsert
 @Entity
-data class ComponentDisplayText(
-        @Column(columnDefinition = "Text")
+data class ComponentCKEditor(
+        @Column(columnDefinition = "MediumText")
         var value: String?
 ) : BaseComponent()
