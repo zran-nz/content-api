@@ -25,7 +25,8 @@ import javax.persistence.InheritanceType
         JsonSubTypes.Type(value = ComponentTextarea::class, name = "textarea"),
         JsonSubTypes.Type(value = ComponentRadio::class, name = "radio"),
         JsonSubTypes.Type(value = ComponentDisplayText::class, name = "displayText"),
-        JsonSubTypes.Type(value = ComponentQuiz::class, name = "quiz")
+        JsonSubTypes.Type(value = ComponentQuiz::class, name = "quiz"),
+        JsonSubTypes.Type(value = ComponentCKEditor::class, name = "ckeditor")
 )
 class BaseComponent : BaseEntity() {
     val label: String? = null
