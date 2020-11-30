@@ -4,6 +4,7 @@ import com.github.b1412.generator.metadata.EntityFeature
 import org.hibernate.annotations.DynamicInsert
 import org.hibernate.annotations.DynamicUpdate
 import org.hibernate.annotations.Type
+import javax.persistence.ElementCollection
 import javax.persistence.Entity
 
 @EntityFeature
@@ -11,7 +12,8 @@ import javax.persistence.Entity
 @DynamicInsert
 @Entity
 data class ComponentSelect(
-        var value: String?,
+        @ElementCollection
+        val value: MutableList<String> = mutableListOf(),
         var optionsUrl: String?,
         var optionLabel: String?,
         var optionValue: String?,

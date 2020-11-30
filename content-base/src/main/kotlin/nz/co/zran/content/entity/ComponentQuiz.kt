@@ -13,6 +13,7 @@ import javax.validation.constraints.NotNull
 
 @Entity
 data class ComponentQuiz(
+        val value: String?,
         @NotNull
         val title: String?,
         @Enumerated(EnumType.STRING)

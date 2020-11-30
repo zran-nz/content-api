@@ -12,5 +12,5 @@ import javax.persistence.Entity
 @Entity
 data class ComponentCheckbox(
         @Type(type = "yes_no")
-        var checked: Boolean?
+        var value: Boolean?
 ) : BaseComponent()
