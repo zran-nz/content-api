@@ -3,6 +3,7 @@ package nz.co.zran.content.entity
 import com.github.b1412.generator.metadata.EntityFeature
 import org.hibernate.annotations.DynamicInsert
 import org.hibernate.annotations.DynamicUpdate
+import javax.persistence.Column
 import javax.persistence.Entity
 
 @EntityFeature
@@ -10,6 +11,7 @@ import javax.persistence.Entity
 @DynamicInsert
 @Entity
 data class ComponentDisplayText(
-        var value: String?,
-        val fieldId: String? = null
+        val fieldId: String? = null,
+        @Column(columnDefinition = "Text")
+        var value: String?
 ) : BaseComponent()
