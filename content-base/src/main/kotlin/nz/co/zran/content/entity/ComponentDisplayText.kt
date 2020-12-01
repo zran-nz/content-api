@@ -10,5 +10,6 @@ import javax.persistence.Entity
 @DynamicInsert
 @Entity
 data class ComponentDisplayText(
-        var value: String?
+        var value: String?,
+        val fieldId: String? = null
 ) : BaseComponent()

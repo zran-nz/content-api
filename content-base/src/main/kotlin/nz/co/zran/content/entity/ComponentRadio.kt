@@ -13,5 +13,6 @@ data class ComponentRadio(
         var value: String?,
         var optionsUrl: String?,
         var optionLabel: String?,
-        var optionValue: String?
+        var optionValue: String?,
+        val fieldId: String? = null
 ) : BaseComponent()

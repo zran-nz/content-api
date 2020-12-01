@@ -29,7 +29,6 @@ import javax.persistence.InheritanceType
 )
 class BaseComponent : BaseEntity() {
     val label: String? = null
-    val fieldId: String? = null
     val cssClassName: String? = null
 
     @Type(type = "yes_no")

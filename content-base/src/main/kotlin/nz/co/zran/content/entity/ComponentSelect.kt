@@ -16,5 +16,7 @@ data class ComponentSelect(
         var optionLabel: String?,
         var optionValue: String?,
         @Type(type = "yes_no")
-        var multiChoice: Boolean
+        var multiChoice: Boolean,
+        val fieldId: String? = null
+
 ) : BaseComponent()

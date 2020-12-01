@@ -15,5 +15,6 @@ import javax.persistence.OneToMany
 @DynamicInsert
 data class ComponentAttachment(
         @OneToMany(cascade = [CascadeType.ALL], orphanRemoval = true)
-        val attachments: MutableList<Attachment> = mutableListOf()
-) : BaseEntity()
+        val attachments: MutableList<Attachment> = mutableListOf(),
+        val fieldId: String? = null
+) : BaseComponent()

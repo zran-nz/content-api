@@ -20,5 +20,6 @@ data class ComponentQuiz(
         val choiceType: ComponentQuizChoiceType?,
         @OneToMany(orphanRemoval = true, cascade = [CascadeType.ALL])
         val choices: MutableList<ComponentQuizChoice> = mutableListOf(),
-        val hint: String?
+        val hint: String?,
+        val fieldId: String? = null
 ) : BaseComponent()
