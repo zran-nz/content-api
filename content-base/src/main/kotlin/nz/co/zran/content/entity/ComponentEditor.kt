@@ -11,6 +11,7 @@ import javax.persistence.Entity
 @DynamicInsert
 @Entity
 data class ComponentEditor(
-        @Column(columnDefinition = "MediumText")
-        var value: String?
+    @Column(columnDefinition = "MediumText")
+    var value: String?,
+    val fieldId: String? = null
 ) : BaseComponent()
