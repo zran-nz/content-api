@@ -14,19 +14,20 @@ import javax.persistence.InheritanceType
 @Entity
 
 @JsonTypeInfo(
-        use = JsonTypeInfo.Id.NAME,
-        include = JsonTypeInfo.As.PROPERTY,
-        property = "type"
+    use = JsonTypeInfo.Id.NAME,
+    include = JsonTypeInfo.As.PROPERTY,
+    property = "type"
 )
 @JsonSubTypes(
-        JsonSubTypes.Type(value = ComponentInput::class, name = "input"),
-        JsonSubTypes.Type(value = ComponentSelect::class, name = "select"),
-        JsonSubTypes.Type(value = ComponentCheckbox::class, name = "checkbox"),
-        JsonSubTypes.Type(value = ComponentTextarea::class, name = "textarea"),
-        JsonSubTypes.Type(value = ComponentRadio::class, name = "radio"),
-        JsonSubTypes.Type(value = ComponentDisplayText::class, name = "displayText"),
-        JsonSubTypes.Type(value = ComponentQuiz::class, name = "quiz"),
-        JsonSubTypes.Type(value = ComponentEditor::class, name = "editor")
+    JsonSubTypes.Type(value = ComponentInput::class, name = "input"),
+    JsonSubTypes.Type(value = ComponentSelect::class, name = "select"),
+    JsonSubTypes.Type(value = ComponentCheckbox::class, name = "checkbox"),
+    JsonSubTypes.Type(value = ComponentTextarea::class, name = "textarea"),
+    JsonSubTypes.Type(value = ComponentRadio::class, name = "radio"),
+    JsonSubTypes.Type(value = ComponentDisplayText::class, name = "displayText"),
+    JsonSubTypes.Type(value = ComponentQuiz::class, name = "quiz"),
+    JsonSubTypes.Type(value = ComponentEditor::class, name = "editor"),
+    JsonSubTypes.Type(value = ComponentRepeat::class, name = "repeat")
 )
 class BaseComponent : BaseEntity() {
     val label: String? = null
